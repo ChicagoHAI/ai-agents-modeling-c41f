@@ -1,0 +1,42 @@
+idea:
+  title: Do AI Agents Form Mental Models of Each Other? Evaluating Opponent Modeling
+    in Multi-Agent LLM Systems
+  domain: artificial_intelligence
+  hypothesis: 'AI agents placed in social deduction games such as Werewolf/Mafia will
+    spontaneously develop opponent modeling or Theory of Mind-like behaviors, with
+    agents explicitly modeling others outperforming dialogue-only agents in win rate,
+    accuracy of hidden role inference, speed of group belief convergence, and emergence
+    of distinct mental models in embeddings or behavior.
+
+    '
+  background:
+    description: "Large language models can debate, cooperate, and negotiate \u2014\
+      \ but do they actually model each other as individuals? This project proposes\
+      \ using Werewolf/Mafia\u2013style social deduction games to explore whether\
+      \ AI agents spontaneously develop something resembling opponent modeling or\
+      \ even Theory of Mind.\nSocial deduction games are ideal because they combine:\n\
+      \xB7 hidden roles and uncertainty,\n\xB7 deception and persuasion,\n\xB7 multi-round\
+      \ discourse,\n\xB7 shifting coalitions,\n\xB7 trust calibration under pressure.\n\
+      Humans naturally build mental models of other players (\u201Cshe\u2019s always\
+      \ defensive when she\u2019s guilty\u201D; \u201Chis timing changed this round\u201D\
+      ). The question is: will AI agents do the same if placed in this environment?\n\
+      The idea is to compare two AI agents:\nDialogue-only agent \u2014 uses conversation\
+      \ history as memory but no explicit reasoning about others.\nOpponent-modeling\
+      \ agent \u2014 tracks beliefs about each partner (e.g., likelihood of being\
+      \ a werewolf, persuasion tendencies, reaction patterns) or uses shallow recursive\
+      \ reasoning (\u201CI think she thinks I\u2019m innocent\u201D).\nWe then evaluate:\n\
+      \xB7 Do opponent-modeling agents win more often?\n\xB7 Do they infer hidden\
+      \ roles more accurately?\n\xB7 Does group belief converge faster?\n\xB7 Do distinct\
+      \ \u201Cmental models\u201D of specific players emerge in embeddings or behavior?\n\
+      This setting gives us a clean, measurable way to study AI social cognition\u2014\
+      not just whether agents communicate, but whether they adapt their communication\
+      \ based on who they believe they\u2019re talking to. It also creates a fun,\
+      \ interpretable benchmark for future multi-agent LLM research."
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/5DAV2ivAKK27mYli9p2R
+    idea_id: do_ai_agents_form_mental_model_20251130_232717_80d7bcd1
+    created_at: '2025-11-30T23:27:17.079697'
+    status: submitted
+    github_repo_name: ai-agents-modeling-c41f
+    github_repo_url: https://github.com/ChicagoHAI/ai-agents-modeling-c41f
